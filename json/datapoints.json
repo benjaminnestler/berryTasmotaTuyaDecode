@@ -1,0 +1,17 @@
+{
+    "debug" : false,
+    "groups" : {
+        "example" : "<p><b><u>Example data</u></b></p>"
+    },
+    "showDatapointsOfGroups" : [
+        "example"
+    ],
+    "datapoints" : {
+        "1" : {
+            "name" : "Switch",
+            "type" : 1,
+            "defaultValue" : "false",
+            "group" : "example"
+        }
+    }
+}
