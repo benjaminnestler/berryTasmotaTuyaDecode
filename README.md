@@ -13,10 +13,11 @@ The JSON file has the following structure:
 {
     "debug" : true,
     "groups" : {
-        "tempC" : "<p><b><u>Room temperature value</u></b></p>",
+        "tempC" : "<p><b><u>Room temperature values °C</u></b></p>",
+        "config_temp" : "<p><b><u>Configuration temperature values</u></b></p>"
     },
     "showDatapointsOfGroups" : [
-        "tempC"
+        "tempC", "config_temp"
     ],
     "datapoints" : {
         "24" : {
